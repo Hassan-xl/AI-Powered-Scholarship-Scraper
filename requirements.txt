@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────
+#  Scholarships-Scraper — Python Dependencies
+# ─────────────────────────────────────────────────────────
+#  Install:  pip install -r requirements.txt
+#  Then:     playwright install chromium
+# ─────────────────────────────────────────────────────────
+
+# Browser automation
+playwright>=1.40.0
+
+# Google Sheets integration
+gspread>=6.0.0
+google-auth>=2.25.0
+
+# OpenAI API
+openai>=1.12.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# HTML parsing (used by dev.py, roar.py, abro.py)
+beautifulsoup4>=4.12.0
+
+# HTTP requests (used by dev.py, roar.py)
+requests>=2.31.0
+
+# Excel output (used by abro.py)
+pandas>=2.1.0
+openpyxl>=3.1.0
